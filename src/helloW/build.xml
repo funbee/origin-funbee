@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<project name="Hello" default="DTarget">
+	<target name="BTarget">
+		<echo>BTarget</echo>
+		</target>
+	<target name="DTarget" depends="BTarget">
+	<echo>BTarget</echo>
+	</target>
+	</project>
