@@ -21,11 +21,11 @@ public class Date {
 		
 		System.out.println("European Format:");
 		System.out.print((day) + (" ") + (date) + (" ") + (month) +(", "));
-		System.out.println(year);
+	
 		
 		System.out.println("American Format:");
 		System.out.print((day) + (",") + (month)+ " " + (date) +(", "));
-		System.out.println(year);
+		
 		
 	}
 
